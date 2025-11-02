@@ -1,0 +1,1693 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 49 | Scripts: 14 | Modules: 0 | Tags: 1
+local CollectionService = game:GetService("CollectionService");
+local G2L = {};
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui
+G2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- Tags
+CollectionService:AddTag(G2L["ScreenGui_1"], [[main]]);
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn
+G2L["decalOn_2"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["decalOn_2"]["TextWrapped"] = true;
+G2L["decalOn_2"]["BorderSizePixel"] = 0;
+G2L["decalOn_2"]["TextScaled"] = true;
+G2L["decalOn_2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["decalOn_2"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["decalOn_2"]["Size"] = UDim2.new(0.108, 0, 0.05391, 0);
+G2L["decalOn_2"]["Text"] = [[On]];
+G2L["decalOn_2"]["Name"] = [[decalOn]];
+G2L["decalOn_2"]["Position"] = UDim2.new(0.585, 0, 0.50404, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn.UICorner
+G2L["UICorner_3"] = Instance.new("UICorner", G2L["decalOn_2"]);
+G2L["UICorner_3"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn.LocalScripw
+G2L["LocalScripw_4"] = Instance.new("LocalScript", G2L["decalOn_2"]);
+G2L["LocalScripw_4"]["Name"] = [[LocalScripw]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn.LocalScript
+G2L["LocalScript_5"] = Instance.new("LocalScript", G2L["decalOn_2"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyButton
+G2L["skyButton_6"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["skyButton_6"]["TextWrapped"] = true;
+G2L["skyButton_6"]["BorderSizePixel"] = 0;
+G2L["skyButton_6"]["TextScaled"] = true;
+G2L["skyButton_6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["skyButton_6"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["skyButton_6"]["Size"] = UDim2.new(0.219, 0, 0.05391, 0);
+G2L["skyButton_6"]["Text"] = [[set skybox]];
+G2L["skyButton_6"]["Name"] = [[skyButton]];
+G2L["skyButton_6"]["Position"] = UDim2.new(0.5865, 0, 0.42588, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyButton.UICorner
+G2L["UICorner_7"] = Instance.new("UICorner", G2L["skyButton_6"]);
+G2L["UICorner_7"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyButton.LocalScript
+G2L["LocalScript_8"] = Instance.new("LocalScript", G2L["skyButton_6"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicId
+G2L["musicId_9"] = Instance.new("TextBox", G2L["ScreenGui_1"]);
+G2L["musicId_9"]["CursorPosition"] = -1;
+G2L["musicId_9"]["Name"] = [[musicId]];
+G2L["musicId_9"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["musicId_9"]["BorderSizePixel"] = 0;
+G2L["musicId_9"]["TextWrapped"] = true;
+G2L["musicId_9"]["TextScaled"] = true;
+G2L["musicId_9"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["musicId_9"]["PlaceholderText"] = [[music id]];
+G2L["musicId_9"]["Size"] = UDim2.new(0.5805, 0, 0.06739, 0);
+G2L["musicId_9"]["Position"] = UDim2.new(0.228, 0, 0.14825, 0);
+G2L["musicId_9"]["Text"] = [[]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicId.UICorner
+G2L["UICorner_a"] = Instance.new("UICorner", G2L["musicId_9"]);
+G2L["UICorner_a"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn
+G2L["musicOn_b"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["musicOn_b"]["TextWrapped"] = true;
+G2L["musicOn_b"]["BorderSizePixel"] = 0;
+G2L["musicOn_b"]["TextScaled"] = true;
+G2L["musicOn_b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["musicOn_b"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["musicOn_b"]["Size"] = UDim2.new(0.108, 0, 0.05391, 0);
+G2L["musicOn_b"]["Text"] = [[On]];
+G2L["musicOn_b"]["Name"] = [[musicOn]];
+G2L["musicOn_b"]["Position"] = UDim2.new(0.5895, 0, 0.24528, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.UICorner
+G2L["UICorner_c"] = Instance.new("UICorner", G2L["musicOn_b"]);
+G2L["UICorner_c"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScripw
+G2L["LocalScripw_d"] = Instance.new("LocalScript", G2L["musicOn_b"]);
+G2L["LocalScripw_d"]["Name"] = [[LocalScripw]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScript
+G2L["LocalScript_e"] = Instance.new("LocalScript", G2L["musicOn_b"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicText
+G2L["musicText_f"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["musicText_f"]["TextWrapped"] = true;
+G2L["musicText_f"]["BorderSizePixel"] = 0;
+G2L["musicText_f"]["TextScaled"] = true;
+G2L["musicText_f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["musicText_f"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["musicText_f"]["Size"] = UDim2.new(0.357, 0, 0.05391, 0);
+G2L["musicText_f"]["Text"] = [[music]];
+G2L["musicText_f"]["Name"] = [[musicText]];
+G2L["musicText_f"]["Position"] = UDim2.new(0.2265, 0, 0.24798, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicText.UICorner
+G2L["UICorner_10"] = Instance.new("UICorner", G2L["musicText_f"]);
+G2L["UICorner_10"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.ImageLabel
+G2L["ImageLabel_11"] = Instance.new("ImageLabel", G2L["ScreenGui_1"]);
+G2L["ImageLabel_11"]["ZIndex"] = 5;
+G2L["ImageLabel_11"]["BorderSizePixel"] = 0;
+G2L["ImageLabel_11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- G2L["ImageLabel_11"]["ImageContent"] = ;
+G2L["ImageLabel_11"]["Image"] = [[rbxassetid://98787538634222]];
+G2L["ImageLabel_11"]["Size"] = UDim2.new(0.123, 0, 0.19946, 0);
+G2L["ImageLabel_11"]["BackgroundTransparency"] = 1;
+G2L["ImageLabel_11"]["Position"] = UDim2.new(0.12, 0, -0.02965, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.ImageLabel.LocalScript
+G2L["LocalScript_12"] = Instance.new("LocalScript", G2L["ImageLabel_11"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff
+G2L["musicOff_13"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["musicOff_13"]["TextWrapped"] = true;
+G2L["musicOff_13"]["BorderSizePixel"] = 0;
+G2L["musicOff_13"]["TextScaled"] = true;
+G2L["musicOff_13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["musicOff_13"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["musicOff_13"]["Size"] = UDim2.new(0.108, 0, 0.05391, 0);
+G2L["musicOff_13"]["Text"] = [[Off]];
+G2L["musicOff_13"]["Name"] = [[musicOff]];
+G2L["musicOff_13"]["Position"] = UDim2.new(0.702, 0, 0.24528, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff.UICorner
+G2L["UICorner_14"] = Instance.new("UICorner", G2L["musicOff_13"]);
+G2L["UICorner_14"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff.LocalScript
+G2L["LocalScript_15"] = Instance.new("LocalScript", G2L["musicOff_13"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff.LocalScripww
+G2L["LocalScripww_16"] = Instance.new("LocalScript", G2L["musicOff_13"]);
+G2L["LocalScripww_16"]["Name"] = [[LocalScripww]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.ScrollingFrame
+G2L["ScrollingFrame_17"] = Instance.new("ScrollingFrame", G2L["ScreenGui_1"]);
+G2L["ScrollingFrame_17"]["BorderSizePixel"] = 0;
+G2L["ScrollingFrame_17"]["BackgroundColor3"] = Color3.fromRGB(0, 17, 155);
+G2L["ScrollingFrame_17"]["Size"] = UDim2.new(0.066, 0, 0.71968, 0);
+G2L["ScrollingFrame_17"]["Position"] = UDim2.new(0.1395, 0, 0.11321, 0);
+G2L["ScrollingFrame_17"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.ScrollingFrame.UICorner
+G2L["UICorner_18"] = Instance.new("UICorner", G2L["ScrollingFrame_17"]);
+G2L["UICorner_18"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame2
+G2L["Frame2_19"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame2_19"]["ZIndex"] = 0;
+G2L["Frame2_19"]["BorderSizePixel"] = 0;
+G2L["Frame2_19"]["BackgroundColor3"] = Color3.fromRGB(0, 17, 155);
+G2L["Frame2_19"]["Size"] = UDim2.new(0.6195, 0, 0.71429, 0);
+G2L["Frame2_19"]["Position"] = UDim2.new(0.213, 0, 0.1159, 0);
+G2L["Frame2_19"]["Name"] = [[Frame2]];
+G2L["Frame2_19"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame2.UICorner
+G2L["UICorner_1a"] = Instance.new("UICorner", G2L["Frame2_19"]);
+G2L["UICorner_1a"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.t
+G2L["t_1b"] = Instance.new("TextBox", G2L["ScreenGui_1"]);
+G2L["t_1b"]["CursorPosition"] = -1;
+G2L["t_1b"]["Name"] = [[t]];
+G2L["t_1b"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["t_1b"]["BorderSizePixel"] = 0;
+G2L["t_1b"]["TextWrapped"] = true;
+G2L["t_1b"]["TextScaled"] = true;
+G2L["t_1b"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["t_1b"]["PlaceholderText"] = [[sky & dacel id]];
+G2L["t_1b"]["Size"] = UDim2.new(0.579, 0, 0.06199, 0);
+G2L["t_1b"]["Position"] = UDim2.new(0.228, 0, 0.33693, 0);
+G2L["t_1b"]["Text"] = [[]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.t.UICorner
+G2L["UICorner_1c"] = Instance.new("UICorner", G2L["t_1b"]);
+G2L["UICorner_1c"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyText
+G2L["skyText_1d"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["skyText_1d"]["TextWrapped"] = true;
+G2L["skyText_1d"]["BorderSizePixel"] = 0;
+G2L["skyText_1d"]["TextScaled"] = true;
+G2L["skyText_1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["skyText_1d"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["skyText_1d"]["Size"] = UDim2.new(0.3495, 0, 0.05391, 0);
+G2L["skyText_1d"]["Text"] = [[skybox]];
+G2L["skyText_1d"]["Name"] = [[skyText]];
+G2L["skyText_1d"]["Position"] = UDim2.new(0.228, 0, 0.42318, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyText.UICorner
+G2L["UICorner_1e"] = Instance.new("UICorner", G2L["skyText_1d"]);
+G2L["UICorner_1e"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff
+G2L["decalOff_1f"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["decalOff_1f"]["TextWrapped"] = true;
+G2L["decalOff_1f"]["BorderSizePixel"] = 0;
+G2L["decalOff_1f"]["TextScaled"] = true;
+G2L["decalOff_1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["decalOff_1f"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["decalOff_1f"]["Size"] = UDim2.new(0.108, 0, 0.05391, 0);
+G2L["decalOff_1f"]["Text"] = [[Off]];
+G2L["decalOff_1f"]["Name"] = [[decalOff]];
+G2L["decalOff_1f"]["Position"] = UDim2.new(0.699, 0, 0.50404, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff.UICorner
+G2L["UICorner_20"] = Instance.new("UICorner", G2L["decalOff_1f"]);
+G2L["UICorner_20"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff.LocalScripw
+G2L["LocalScripw_21"] = Instance.new("LocalScript", G2L["decalOff_1f"]);
+G2L["LocalScripw_21"]["Name"] = [[LocalScripw]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff.LocalScript
+G2L["LocalScript_22"] = Instance.new("LocalScript", G2L["decalOff_1f"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.isAtitle
+G2L["isAtitle_23"] = Instance.new("TextLabel", G2L["ScreenGui_1"]);
+G2L["isAtitle_23"]["TextWrapped"] = true;
+G2L["isAtitle_23"]["BorderSizePixel"] = 0;
+G2L["isAtitle_23"]["TextScaled"] = true;
+G2L["isAtitle_23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["isAtitle_23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["isAtitle_23"]["BackgroundTransparency"] = 1;
+G2L["isAtitle_23"]["Size"] = UDim2.new(0.345, 0, 0.05121, 0);
+G2L["isAtitle_23"]["Text"] = [[F3xploit v0.1 by ywihmsleklp2]];
+G2L["isAtitle_23"]["Name"] = [[isAtitle]];
+G2L["isAtitle_23"]["Position"] = UDim2.new(0.2595, 0, 0.04313, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton
+G2L["TextButton_24"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["TextButton_24"]["TextWrapped"] = true;
+G2L["TextButton_24"]["BorderSizePixel"] = 0;
+G2L["TextButton_24"]["TextScaled"] = true;
+G2L["TextButton_24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton_24"]["BackgroundColor3"] = Color3.fromRGB(81, 81, 81);
+G2L["TextButton_24"]["Size"] = UDim2.new(0.117, 0, 0.17251, 0);
+G2L["TextButton_24"]["Text"] = [[close & open]];
+G2L["TextButton_24"]["Position"] = UDim2.new(0.0015, 0, 0.81132, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton.LocalScript
+G2L["LocalScript_25"] = Instance.new("LocalScript", G2L["TextButton_24"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton.UICorner
+G2L["UICorner_26"] = Instance.new("UICorner", G2L["TextButton_24"]);
+G2L["UICorner_26"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton.2script
+G2L["2script_27"] = Instance.new("LocalScript", G2L["TextButton_24"]);
+G2L["2script_27"]["Name"] = [[2script]];
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame
+G2L["Frame_28"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame_28"]["ZIndex"] = 0;
+G2L["Frame_28"]["BorderSizePixel"] = 0;
+G2L["Frame_28"]["BackgroundColor3"] = Color3.fromRGB(0, 17, 155);
+G2L["Frame_28"]["Size"] = UDim2.new(0.7215, 0, 0.82749, 0);
+G2L["Frame_28"]["Position"] = UDim2.new(0.12, 0, 0.03504, 0);
+G2L["Frame_28"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame.UICorner
+G2L["UICorner_29"] = Instance.new("UICorner", G2L["Frame_28"]);
+G2L["UICorner_29"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame2
+G2L["Frame2_2a"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame2_2a"]["ZIndex"] = 0;
+G2L["Frame2_2a"]["BorderSizePixel"] = 0;
+G2L["Frame2_2a"]["BackgroundColor3"] = Color3.fromRGB(0, 17, 155);
+G2L["Frame2_2a"]["Size"] = UDim2.new(0.7005, 0, 0.06469, 0);
+G2L["Frame2_2a"]["Position"] = UDim2.new(0.135, 0, 0.04313, 0);
+G2L["Frame2_2a"]["Name"] = [[Frame2]];
+G2L["Frame2_2a"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.Frame2.UICorner
+G2L["UICorner_2b"] = Instance.new("UICorner", G2L["Frame2_2a"]);
+G2L["UICorner_2b"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalText
+G2L["decalText_2c"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["decalText_2c"]["TextWrapped"] = true;
+G2L["decalText_2c"]["BorderSizePixel"] = 0;
+G2L["decalText_2c"]["TextScaled"] = true;
+G2L["decalText_2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["decalText_2c"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["decalText_2c"]["Size"] = UDim2.new(0.3495, 0, 0.05391, 0);
+G2L["decalText_2c"]["Text"] = [[decal spam]];
+G2L["decalText_2c"]["Name"] = [[decalText]];
+G2L["decalText_2c"]["Position"] = UDim2.new(0.228, 0, 0.50135, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalText.UICorner
+G2L["UICorner_2d"] = Instance.new("UICorner", G2L["decalText_2c"]);
+G2L["UICorner_2d"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalText.LocalScript
+G2L["LocalScript_2e"] = Instance.new("LocalScript", G2L["decalText_2c"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn
+G2L["musicOn_2f"] = Instance.new("TextButton", G2L["ScreenGui_1"]);
+G2L["musicOn_2f"]["TextWrapped"] = true;
+G2L["musicOn_2f"]["BorderSizePixel"] = 0;
+G2L["musicOn_2f"]["TextScaled"] = true;
+G2L["musicOn_2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["musicOn_2f"]["BackgroundColor3"] = Color3.fromRGB(115, 115, 115);
+G2L["musicOn_2f"]["Size"] = UDim2.new(0.573, 0, 0.05391, 0);
+G2L["musicOn_2f"]["Text"] = [[btools]];
+G2L["musicOn_2f"]["Name"] = [[musicOn]];
+G2L["musicOn_2f"]["Position"] = UDim2.new(0.228, 0, 0.57412, 0);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.UICorner
+G2L["UICorner_30"] = Instance.new("UICorner", G2L["musicOn_2f"]);
+G2L["UICorner_30"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScript
+G2L["LocalScript_31"] = Instance.new("LocalScript", G2L["musicOn_2f"]);
+
+
+
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn.LocalScripw
+local function C_4()
+	local script = G2L["LocalScripw_4"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	local sound = Instance.new("Sound")	
+	
+	sound.SoundId = "rbxassetid://12221976"	
+	sound.Volume = 1	
+	sound.PlayOnRemove = false	
+	sound.Looped = false	
+	sound.Parent = player:WaitForChild("PlayerGui")	
+	
+	button.MouseButton1Click:Connect(function()	
+		sound:Play()	
+	end)	
+end;
+task.spawn(C_4);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOn.LocalScript
+local function C_5()
+	local script = G2L["LocalScript_5"];
+	local decal = script.Parent	
+	local ScreenGui = decal.Parent	
+	local ui = ScreenGui:WaitForChild("t")	
+	
+	decal.MouseButton1Click:Connect(function()	
+		local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function spam(id)	
+			for i,v in game.workspace:GetDescendants() do	
+				if v:IsA("BasePart") then	
+					spawn(function()	
+						SetLocked(v,false)	
+						SpawnDecal(v,Enum.NormalId.Front)	
+						AddDecal(v,id,Enum.NormalId.Front)	
+	
+						SpawnDecal(v,Enum.NormalId.Back)	
+						AddDecal(v,id,Enum.NormalId.Back)	
+	
+						SpawnDecal(v,Enum.NormalId.Right)	
+						AddDecal(v,id,Enum.NormalId.Right)	
+	
+						SpawnDecal(v,Enum.NormalId.Left)	
+						AddDecal(v,id,Enum.NormalId.Left)	
+	
+						SpawnDecal(v,Enum.NormalId.Bottom)	
+						AddDecal(v,id,Enum.NormalId.Bottom)	
+	
+						SpawnDecal(v,Enum.NormalId.Top)	
+						AddDecal(v,id,Enum.NormalId.Top)	
+					end)	
+				end	
+			end 	
+		end	
+		spam(ui.Text)	
+	end)	
+end;
+task.spawn(C_5);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.skyButton.LocalScript
+local function C_8()
+	local script = G2L["LocalScript_8"];
+	local skyButton = script.Parent	
+	local ScreenGui = skyButton.Parent	
+	local ui = ScreenGui:WaitForChild("t")	
+	
+	skyButton.MouseButton1Click:Connect(function()	
+	local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function Sky(id)	
+			e = char.HumanoidRootPart.CFrame.x	
+			f = char.HumanoidRootPart.CFrame.y	
+			g = char.HumanoidRootPart.CFrame.z	
+			CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)	
+			for i,v in game.Workspace:GetDescendants() do	
+				if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then	
+					--spawn(function()	
+					SetName(v,"Sky")	
+					AddMesh(v)	
+					--end)	
+					--spawn(function()	
+					SetMesh(v,"111891702759441")	
+					SetTexture(v,id)	
+					--end)	
+					MeshResize(v,Vector3.new(6000,6000,6000))	
+					SetLocked(v,true)	
+				end	
+			end	
+		end	
+		Sky(ui.Text)	
+	end)	
+end;
+task.spawn(C_8);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScripw
+local function C_d()
+	local script = G2L["LocalScripw_d"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	local sound = Instance.new("Sound")	
+	
+	sound.SoundId = "rbxassetid://12221976"	
+	sound.Volume = 1	
+	sound.PlayOnRemove = false	
+	sound.Looped = false	
+	sound.Parent = player:WaitForChild("PlayerGui")	
+	
+	button.MouseButton1Click:Connect(function()	
+		sound:Play()	
+	end)	
+end;
+task.spawn(C_d);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScript
+local function C_e()
+	local script = G2L["LocalScript_e"];
+	local button = script.Parent	
+	local musicId = button.Parent:WaitForChild("musicId")	
+	
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	
+	button.MouseButton1Click:Connect(function()	
+		local musicText = musicId.Text	
+		RequestCommand:InvokeServer(";music " .. musicText)	
+	end)	
+end;
+task.spawn(C_e);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.ImageLabel.LocalScript
+local function C_12()
+	local script = G2L["LocalScript_12"];
+	local TweenService = game:GetService("TweenService")	
+	
+	local ui = script.Parent	
+	local rotationAmount = 5	
+	local tweenTime = 1.5	
+	
+	while true do	
+		local tween1 = TweenService:Create(ui, TweenInfo.new(tweenTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {Rotation = rotationAmount})	
+		tween1:Play()	
+		tween1.Completed:Wait()	
+			
+		local tween2 = TweenService:Create(ui, TweenInfo.new(tweenTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {Rotation = -rotationAmount})	
+		tween2:Play()	
+		tween2.Completed:Wait()	
+	end	
+end;
+task.spawn(C_12);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff.LocalScript
+local function C_15()
+	local script = G2L["LocalScript_15"];
+	local button = script.Parent	
+	
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	
+	button.MouseButton1Click:Connect(function()	
+		RequestCommand:InvokeServer(";unmusic")	
+	end)	
+end;
+task.spawn(C_15);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOff.LocalScripww
+local function C_16()
+	local script = G2L["LocalScripww_16"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	local sound = Instance.new("Sound")	
+	
+	sound.SoundId = "rbxassetid://12221976"	
+	sound.Volume = 1	
+	sound.PlayOnRemove = false	
+	sound.Looped = false	
+	sound.Parent = player:WaitForChild("PlayerGui")	
+	
+	button.MouseButton1Click:Connect(function()	
+		sound:Play()	
+	end)	
+end;
+task.spawn(C_16);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff.LocalScripw
+local function C_21()
+	local script = G2L["LocalScripw_21"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	local sound = Instance.new("Sound")	
+	
+	sound.SoundId = "rbxassetid://12221976"	
+	sound.Volume = 1	
+	sound.PlayOnRemove = false	
+	sound.Looped = false	
+	sound.Parent = player:WaitForChild("PlayerGui")	
+	
+	button.MouseButton1Click:Connect(function()	
+		sound:Play()	
+	end)	
+end;
+task.spawn(C_21);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalOff.LocalScript
+local function C_22()
+	local script = G2L["LocalScript_22"];
+	local decal = script.Parent	
+	
+	decal.MouseButton1Click:Connect(function()	
+		local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function spam(id)	
+			for i,v in game.workspace:GetDescendants() do	
+				if v:IsA("BasePart") then	
+					spawn(function()	
+						SetLocked(v,false)	
+						SpawnDecal(v,Enum.NormalId.Front)	
+						AddDecal(v,id,Enum.NormalId.Front)	
+	
+						SpawnDecal(v,Enum.NormalId.Back)	
+						AddDecal(v,id,Enum.NormalId.Back)	
+	
+						SpawnDecal(v,Enum.NormalId.Right)	
+						AddDecal(v,id,Enum.NormalId.Right)	
+	
+						SpawnDecal(v,Enum.NormalId.Left)	
+						AddDecal(v,id,Enum.NormalId.Left)	
+	
+						SpawnDecal(v,Enum.NormalId.Bottom)	
+						AddDecal(v,id,Enum.NormalId.Bottom)	
+	
+						SpawnDecal(v,Enum.NormalId.Top)	
+						AddDecal(v,id,Enum.NormalId.Top)	
+					end)	
+				end	
+			end 	
+		end	
+		spam("9789474866")	
+	end)	
+end;
+task.spawn(C_22);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton.LocalScript
+local function C_25()
+	local script = G2L["LocalScript_25"];
+	local button = script.Parent	
+	local player = game.Players.LocalPlayer	
+	local sound = Instance.new("Sound")	
+	
+	sound.SoundId = "rbxassetid://12221976"	
+	sound.Volume = 1	
+	sound.PlayOnRemove = false	
+	sound.Looped = false	
+	sound.Parent = player:WaitForChild("PlayerGui")	
+	
+	button.MouseButton1Click:Connect(function()	
+		sound:Play()	
+	end)	
+end;
+task.spawn(C_25);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.TextButton.2script
+local function C_27()
+	local script = G2L["2script_27"];
+	local button = script.Parent	
+	local screenGui = button.Parent	
+	local hidden = false	
+	
+	button.MouseButton1Click:Connect(function()	
+		hidden = not hidden	
+	
+		for _, ui in pairs(screenGui:GetChildren()) do	
+			if ui ~= button and ui:IsA("GuiObject") then	
+				ui.Visible = not hidden	
+			end	
+		end	
+	
+		if hidden then	
+			button.Text = "open"	
+		else	
+			button.Text = "close"	
+		end	
+	end)	
+end;
+task.spawn(C_27);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.decalText.LocalScript
+local function C_2e()
+	local script = G2L["LocalScript_2e"];
+	local skyButton = script.Parent	
+	local ScreenGui = skyButton.Parent	
+	local ui = ScreenGui:WaitForChild("t")	
+	
+	skyButton.MouseButton1Click:Connect(function()	
+	local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function Sky(id)	
+			e = char.HumanoidRootPart.CFrame.x	
+			f = char.HumanoidRootPart.CFrame.y	
+			g = char.HumanoidRootPart.CFrame.z	
+			CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)	
+			for i,v in game.Workspace:GetDescendants() do	
+				if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then	
+					--spawn(function()	
+					SetName(v,"Sky")	
+					AddMesh(v)	
+					--end)	
+					--spawn(function()	
+					SetMesh(v,"111891702759441")	
+					SetTexture(v,id)	
+					--end)	
+					MeshResize(v,Vector3.new(6000,6000,6000))	
+					SetLocked(v,true)	
+				end	
+			end	
+		end	
+		Sky(ui.Text)	
+	end)	
+end;
+task.spawn(C_2e);
+-- Players.TeamYwTheDestroyer.PlayerGui.ScreenGui.musicOn.LocalScript
+local function C_31()
+	local script = G2L["LocalScript_31"];
+	local button = script.Parent	
+	
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	
+	
+	button.MouseButton1Click:Connect(function()	
+		RequestCommand:InvokeServer(";btools")	
+	end)	
+end;
+task.spawn(C_31);
+
+return G2L["ScreenGui_1"], require;
