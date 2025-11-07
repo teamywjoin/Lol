@@ -1,0 +1,27 @@
+local player = game.Players.LocalPlayer
+
+local function gentlyMoveHeadSideways()
+    local character = player.Character or player.CharacterAdded:Wait()
+    local head = character:WaitForChild("Head")
+    local torso = character:FindFirstChild("UpperTorso") or character:FindFirstChild("Torso")
+    if not torso then return end
+
+    local neck = torso:FindFirstChild("Neck")
+    if not neck then return end
+
+    local origC0 = neck.C0
+    local studs = 1
+    local speed = 0.05
+    local period = 60 -- frames for a full cycle
+
+    while true do
+        for t = 0, period do
+            -- use sine to gently move head from -studs to +studs
+            local offset = math.sin((t/period)*math.pi*2) * studs
+            neck.C0 = origC0 * CFrame.new(offset, 0, 0)
+            wait(speed)
+        end
+    end
+end
+
+gentlyMoveHeadSideways()
