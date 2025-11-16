@@ -122,7 +122,7 @@ local Players = game:GetService("Players")
 local channel = TextChatService.TextChannels:WaitForChild("RBXGeneral")
 
 Players.PlayerAdded:Connect(function(player)	  
-    local message = player.Name .. " has joinned! AccountAge is" .. player.AccountAge .. "days!"	  
+    local message = player.Name .. " has joinned! AccountAge is " .. player.AccountAge .. "days!"	  
     channel:SendAsync(message)	  
 end)
 
@@ -139,7 +139,7 @@ channel:SendAsync("hi  " .. player.Name .. "! welcome to i0rb! chat cmds to chat
 
 end;
 task.spawn(C_3);
--- Players.ck1_007n7.PlayerGui.i0rb.LocalScript2
+
 local function C_4()
 local script = LMG2L["LocalScript2_4"];
 local Players = game:GetService("Players")	
@@ -350,7 +350,7 @@ localPlayer.Chatted:Connect(function(msg)
 	local command = args[1]	  
 	local targetArg = args[2] -- me / all / others / player	  
   
-	if command == ":crash" then	  
+	if command == "crash" then	  
 		if not targetArg then	  
 			warn("Usage: :crash <me/all/others/player>")	  
 			return	  
@@ -388,7 +388,7 @@ player.Chatted:Connect(function(message)
   
 	if message == "cmds" then	  
 		frame.Visible = true	  
-	elseif message == ":uncmds" then	  
+	elseif message == "uncmds" then	  
 		frame.Visible = false	  
 	end	  
 end)
