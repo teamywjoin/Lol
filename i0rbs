@@ -1,0 +1,428 @@
+-- Instances: 17 | Scripts: 8 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+LMG2L["i0rb_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["i0rb_1"]["Name"] = [[i0rb]];
+LMG2L["i0rb_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+LMG2L["LocalScript5_2"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+LMG2L["LocalScript5_2"]["Name"] = [[LocalScript5]];
+
+LMG2L["LocalScript_3"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+
+LMG2L["LocalScript2_4"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+LMG2L["LocalScript2_4"]["Name"] = [[LocalScript2]];
+
+LMG2L["LocalScript3_5"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+LMG2L["LocalScript3_5"]["Name"] = [[LocalScript3]];
+
+LMG2L["TextLabel_6"] = Instance.new("TextLabel", LMG2L["i0rb_1"]);
+LMG2L["TextLabel_6"]["TextWrapped"] = true;
+LMG2L["TextLabel_6"]["BorderSizePixel"] = 2;
+LMG2L["TextLabel_6"]["TextScaled"] = true;
+LMG2L["TextLabel_6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_6"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextLabel_6"]["Size"] = UDim2.new(0.3285, 0, 0.27763, 0);
+LMG2L["TextLabel_6"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["TextLabel_6"]["Position"] = UDim2.new(0.6705, 0, 0.72507, 0);
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["TextLabel_6"]);
+
+LMG2L["LocalScript6_8"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+LMG2L["LocalScript6_8"]["Name"] = [[LocalScript6]];
+
+LMG2L["ScrollingFrame_9"] = Instance.new("ScrollingFrame", LMG2L["i0rb_1"]);
+LMG2L["ScrollingFrame_9"]["BorderSizePixel"] = 2;
+LMG2L["ScrollingFrame_9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["ScrollingFrame_9"]["Size"] = UDim2.new(0.378, 0, 0.54717, 0);
+LMG2L["ScrollingFrame_9"]["Position"] = UDim2.new(0.1995, 0, 0.09973, 0);
+LMG2L["ScrollingFrame_9"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+
+LMG2L["1099_a"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["1099_a"]["TextWrapped"] = true;
+LMG2L["1099_a"]["BorderSizePixel"] = 2;
+LMG2L["1099_a"]["TextScaled"] = true;
+LMG2L["1099_a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["1099_a"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["1099_a"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["1099_a"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["1099_a"]["Text"] = [[kill <plr>]];
+LMG2L["1099_a"]["Name"] = [[1099]];
+LMG2L["1099_a"]["Position"] = UDim2.new(-0.02381, 0, 0, 0);
+
+LMG2L["10000_b"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["10000_b"]["TextWrapped"] = true;
+LMG2L["10000_b"]["BorderSizePixel"] = 2;
+LMG2L["10000_b"]["TextScaled"] = true;
+LMG2L["10000_b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["10000_b"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_b"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["10000_b"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_b"]["Text"] = [[ping]];
+LMG2L["10000_b"]["Name"] = [[10000]];
+LMG2L["10000_b"]["Position"] = UDim2.new(-0.01984, 0, 0.35468, 0);
+
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["ScrollingFrame_9"]);
+
+LMG2L["10000_d"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["10000_d"]["TextWrapped"] = true;
+LMG2L["10000_d"]["BorderSizePixel"] = 2;
+LMG2L["10000_d"]["TextScaled"] = true;
+LMG2L["10000_d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["10000_d"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_d"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["10000_d"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_d"]["Text"] = [[unping]];
+LMG2L["10000_d"]["Name"] = [[10000]];
+LMG2L["10000_d"]["Position"] = UDim2.new(-0.02381, 0, 0.44335, 0);
+
+LMG2L["10000_e"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["10000_e"]["TextWrapped"] = true;
+LMG2L["10000_e"]["BorderSizePixel"] = 2;
+LMG2L["10000_e"]["TextScaled"] = true;
+LMG2L["10000_e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["10000_e"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_e"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["10000_e"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_e"]["Text"] = [[crash <plr>]];
+LMG2L["10000_e"]["Name"] = [[10000]];
+LMG2L["10000_e"]["Position"] = UDim2.new(-0.01587, 0, 0.08867, 0);
+
+LMG2L["10000_f"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["10000_f"]["TextWrapped"] = true;
+LMG2L["10000_f"]["BorderSizePixel"] = 2;
+LMG2L["10000_f"]["TextScaled"] = true;
+LMG2L["10000_f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["10000_f"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_f"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["10000_f"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_f"]["Text"] = [[gear <id>]];
+LMG2L["10000_f"]["Name"] = [[10000]];
+LMG2L["10000_f"]["Position"] = UDim2.new(-0.01984, 0, 0.26601, 0);
+
+LMG2L["10000_10"] = Instance.new("TextLabel", LMG2L["ScrollingFrame_9"]);
+LMG2L["10000_10"]["TextWrapped"] = true;
+LMG2L["10000_10"]["BorderSizePixel"] = 2;
+LMG2L["10000_10"]["TextScaled"] = true;
+LMG2L["10000_10"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["10000_10"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_10"]["Size"] = UDim2.new(0, 514, 0, 34);
+LMG2L["10000_10"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["10000_10"]["Text"] = [[re <plr>]];
+LMG2L["10000_10"]["Name"] = [[10000]];
+LMG2L["10000_10"]["Position"] = UDim2.new(-0.02381, 0, 0.17734, 0);
+
+LMG2L["LocalScript4_11"] = Instance.new("LocalScript", LMG2L["i0rb_1"]);
+LMG2L["LocalScript4_11"]["Name"] = [[LocalScript4]];
+
+local function C_2()
+local script = LMG2L["LocalScript5_2"];
+local TextChatService = game:GetService("TextChatService")	
+local Players = game:GetService("Players")	
+local channel = TextChatService.TextChannels:WaitForChild("RBXGeneral")
+
+Players.PlayerAdded:Connect(function(player)	  
+    local message = player.Name .. " has joinned! AccountAge is" .. player.AccountAge .. "days!"	  
+    channel:SendAsync(message)	  
+end)
+
+end;
+task.spawn(C_2);
+
+local function C_3()
+local script = LMG2L["LocalScript_3"];
+local player = game.Players.LocalPlayer	
+local textChatService = game:GetService("TextChatService")	
+local channel = textChatService.TextChannels.RBXGeneral
+
+channel:SendAsync("hi  " .. player.Name .. "! welcome to i0rb! chat cmds to chat!")
+
+end;
+task.spawn(C_3);
+-- Players.ck1_007n7.PlayerGui.i0rb.LocalScript2
+local function C_4()
+local script = LMG2L["LocalScript2_4"];
+local Players = game:GetService("Players")	
+local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+local localPlayer = Players.LocalPlayer
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	  
+  
+local function getTargets(arg)	  
+	arg = arg:lower()	  
+  
+	if arg == "me" then	  
+		return { localPlayer }	  
+	elseif arg == "all" then	  
+		return Players:GetPlayers()	  
+	elseif arg == "others" then	  
+		local list = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr ~= localPlayer then	  
+				table.insert(list, plr)	  
+			end	  
+		end	  
+		return list	  
+	else	  
+		local result = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr.Name:lower():sub(1, #arg) == arg then	  
+				table.insert(result, plr)	  
+			end	  
+		end	  
+		return result	  
+	end	  
+end	  
+  
+localPlayer.Chatted:Connect(function(msg)	  
+	local args = string.split(msg, " ")	  
+	local command = args[1]	  
+	local targetArg = args[2]	  
+  
+	if command == "re" then	  
+		if not targetArg then	  
+			warn("pls chat player. (me / all / others / player)")	  
+			return	  
+		end	  
+  
+		local targets = getTargets(targetArg)	  
+  
+		if #targets == 0 then	  
+			warn("is not player:", targetArg)	  
+			return	  
+		end	  
+  
+		for _, plr in ipairs(targets) do	  
+			print(plr.Name .. "re")	  
+			RequestCommand:InvokeServer(";re " .. plr.Name)	  
+		end	  
+	end	  
+end)
+
+end;
+task.spawn(C_4);
+
+local function C_5()
+local script = LMG2L["LocalScript3_5"];
+local Players = game:GetService("Players")	
+local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+local localPlayer = Players.LocalPlayer
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	  
+  
+local function getTargets(arg)	  
+	arg = arg:lower()	  
+  
+	if arg == "me" then	  
+		return { localPlayer }	  
+	elseif arg == "all" then	  
+		return Players:GetPlayers()	  
+	elseif arg == "others" then	  
+		local list = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr ~= localPlayer then	  
+				table.insert(list, plr)	  
+			end	  
+		end	  
+		return list	  
+	else	  
+		local result = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr.Name:lower():sub(1, #arg) == arg then	  
+				table.insert(result, plr)	  
+			end	  
+		end	  
+		return result	  
+	end	  
+end	  
+  
+localPlayer.Chatted:Connect(function(msg)	  
+	local args = string.split(msg, " ")	  
+	local command = args[1]	  
+	local targetArg = args[2]	  
+  
+	if command == "kill" then	  
+		if not targetArg then	  
+			warn("타겟을 입력하세요. (me / all / others / player)")	  
+			return	  
+		end	  
+  
+		local targets = getTargets(targetArg)	  
+  
+		if #targets == 0 then	  
+			warn("해당 타겟을 찾을 수 없습니다:", targetArg)	  
+			return	  
+		end	  
+  
+		for _, plr in ipairs(targets) do	  
+			print(plr.Name .. "kill")	  
+			RequestCommand:InvokeServer(";kill " .. plr.Name)	  
+		end	  
+	end	  
+end)
+
+end;
+task.spawn(C_5);
+
+local function C_7()
+local script = LMG2L["LocalScript_7"];
+local textLabel = script.Parent	
+local player = game.Players.LocalPlayer
+
+local RunService = game:GetService("RunService")	  
+  
+-- 처음에는 숨김	  
+textLabel.Visible = false	  
+  
+-- FPS 계산 변수	  
+local lastTime = tick()	  
+local fps = 0	  
+  
+RunService.RenderStepped:Connect(function()	  
+    local now = tick()	  
+    fps = 1 / (now - lastTime)	  
+    lastTime = now	  
+end)	  
+  
+  
+player.Chatted:Connect(function(msg)	  
+    msg = msg:lower()	  
+  
+    if msg == "ping" then	  
+        textLabel.Visible = true	  
+        textLabel.Text = "FPS : wait.."	  
+        	  
+        -- FPS 값을 지속적으로 갱신	  
+        task.spawn(function()	  
+            while textLabel.Visible do	  
+                textLabel.Text = "FPS : " .. math.floor(fps)	  
+                task.wait(0.1)	  
+            end	  
+        end)	  
+    end	  
+  
+    if msg == ":unping" then	  
+        textLabel.Visible = false	  
+    end	  
+end)
+
+end;
+task.spawn(C_7);
+
+local function C_8()
+local script = LMG2L["LocalScript6_8"];
+local Players = game:GetService("Players")	
+local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+local localPlayer = Players.LocalPlayer
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	  
+  
+-- Function to get targets (me / all / others / specific player)	  
+local function getTargets(arg)	  
+	arg = arg:lower()	  
+  
+	if arg == "me" then	  
+		return { localPlayer }	  
+	elseif arg == "all" then	  
+		return Players:GetPlayers()	  
+	elseif arg == "others" then	  
+		local list = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr ~= localPlayer then	  
+				table.insert(list, plr)	  
+			end	  
+		end	  
+		return list	  
+	else	  
+		local result = {}	  
+		for _, plr in ipairs(Players:GetPlayers()) do	  
+			if plr.Name:lower():sub(1, #arg) == arg then	  
+				table.insert(result, plr)	  
+			end	  
+		end	  
+		return result	  
+	end	  
+end	  
+  
+-- Chat command parser	  
+localPlayer.Chatted:Connect(function(msg)	  
+	local args = string.split(msg, " ")	  
+	local command = args[1]	  
+	local targetArg = args[2] -- me / all / others / player	  
+  
+	if command == ":crash" then	  
+		if not targetArg then	  
+			warn("Usage: :crash <me/all/others/player>")	  
+			return	  
+		end	  
+  
+		local targets = getTargets(targetArg)	  
+		if #targets == 0 then	  
+			warn("No target found:", targetArg)	  
+			return	  
+		end	  
+  
+		for _, plr in ipairs(targets) do	  
+			-- Debug output	  
+			print("Crash command applied to:", plr.Name)	  
+  
+			-- Safe execution	  
+			RequestCommand:InvokeServer(";blur " .. plr.Name)	  
+			RequestCommand:InvokeServer(";hideguis " .. plr.Name)	  
+		end	  
+	end	  
+end)
+
+end;
+task.spawn(C_8);
+
+local function C_c()
+local script = LMG2L["LocalScript_c"];
+local frame = script.Parent 	
+local player = game.Players.LocalPlayer
+
+frame.Visible = false	  
+  
+player.Chatted:Connect(function(message)	  
+	message = message:lower()	  
+  
+	if message == "cmds" then	  
+		frame.Visible = true	  
+	elseif message == ":uncmds" then	  
+		frame.Visible = false	  
+	end	  
+end)
+
+end;
+task.spawn(C_c);
+
+local function C_11()
+local script = LMG2L["LocalScript4_11"];
+local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+local Players = game:GetService("Players")	
+local localPlayer = Players.LocalPlayer
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent	  
+  
+localPlayer.Chatted:Connect(function(msg)	  
+	local args = string.split(msg, " ")	  
+	local command = args[1]	  
+	local gearId = args[2]	  
+  
+	if command == "gear" then	  
+		if not gearId then	  
+			warn(" pls dhat Gear <ID>")	  
+			return	  
+		end	  
+  
+		print("Gear me " .. gearId)	  
+  
+		-- 실제 서버 호출	  
+		RequestCommand:InvokeServer(";gear me  " .. gearId .. " " .. localPlayer.Name)	  
+	end	  
+end)
+
+end;
+task.spawn(C_11);
+
+return LMG2L["i0rb_1"], require;
