@@ -1,0 +1,1372 @@
+--[=[
+'qp            qp'   'Yo                                                         oY'
+   88        88       88                                                      88
+    Yo     oY           qp                      qp                         qp
+       8oo8               Y8                  8YY8                    8Y
+         88                   88               88   88                 88
+       88                      `8D          D8'       `8D           D8'
+     YP                           `o8booo.              `o8booo.
+]=]
+
+-- Instances: 54 | Scripts: 21 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2
+LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"]["Name"] = [[J00pGui v4 made by ywihmsleklp2 & J00pklp2]];
+LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main
+LMG2L["main_2"] = Instance.new("Frame", LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"]);
+LMG2L["main_2"]["BorderSizePixel"] = 0;
+LMG2L["main_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["main_2"]["Size"] = UDim2.new(0.4515, 0, 0.48248, 0);
+LMG2L["main_2"]["Position"] = UDim2.new(0.26625, 0, 0.13477, 0);
+LMG2L["main_2"]["Name"] = [[main]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.titleframe
+LMG2L["titleframe_3"] = Instance.new("Frame", LMG2L["main_2"]);
+LMG2L["titleframe_3"]["BorderSizePixel"] = 0;
+LMG2L["titleframe_3"]["BackgroundColor3"] = Color3.fromRGB(156, 156, 156);
+LMG2L["titleframe_3"]["Size"] = UDim2.new(1.00498, 0, 0.17877, 0);
+LMG2L["titleframe_3"]["Position"] = UDim2.new(-0.00332, 0, 0, 0);
+LMG2L["titleframe_3"]["Name"] = [[titleframe]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.titleframe.UICorner
+LMG2L["UICorner_4"] = Instance.new("UICorner", LMG2L["titleframe_3"]);
+LMG2L["UICorner_4"]["CornerRadius"] = UDim.new(0, 25);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.titleframe.title
+LMG2L["title_5"] = Instance.new("TextLabel", LMG2L["titleframe_3"]);
+LMG2L["title_5"]["TextWrapped"] = true;
+LMG2L["title_5"]["ZIndex"] = 2;
+LMG2L["title_5"]["BorderSizePixel"] = 0;
+LMG2L["title_5"]["TextScaled"] = true;
+LMG2L["title_5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["title_5"]["BackgroundTransparency"] = 1;
+LMG2L["title_5"]["Size"] = UDim2.new(0.58182, 0, 0.78125, 0);
+LMG2L["title_5"]["Text"] = [[J00pGui v4]];
+LMG2L["title_5"]["Name"] = [[title]];
+LMG2L["title_5"]["Position"] = UDim2.new(0.20826, 0, 0.125, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.lel
+LMG2L["lel_6"] = Instance.new("LocalScript", LMG2L["main_2"]);
+LMG2L["lel_6"]["Name"] = [[lel]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.UICorner
+LMG2L["UICorner_7"] = Instance.new("UICorner", LMG2L["main_2"]);
+LMG2L["UICorner_7"]["CornerRadius"] = UDim.new(0, 30);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi
+LMG2L["hi_8"] = Instance.new("Frame", LMG2L["main_2"]);
+LMG2L["hi_8"]["BorderSizePixel"] = 0;
+LMG2L["hi_8"]["BackgroundColor3"] = Color3.fromRGB(155, 155, 155);
+LMG2L["hi_8"]["Size"] = UDim2.new(0.69103, 0, 0.73184, 0);
+LMG2L["hi_8"]["Position"] = UDim2.new(0.17276, 0, 0.21788, 0);
+LMG2L["hi_8"]["Name"] = [[hi]];
+LMG2L["hi_8"]["BackgroundTransparency"] = 1;
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.ImageLabel
+LMG2L["ImageLabel_9"] = Instance.new("ImageLabel", LMG2L["hi_8"]);
+LMG2L["ImageLabel_9"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_9"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["ImageLabel_9"]["Size"] = UDim2.new(0.16827, 0, 0.26718, 0);
+LMG2L["ImageLabel_9"]["Position"] = UDim2.new(0.05769, 0, 0.10687, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.ImageLabel.LocalScript
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["ImageLabel_9"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel5
+LMG2L["TextLabel5_b"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel5_b"]["TextWrapped"] = true;
+LMG2L["TextLabel5_b"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel5_b"]["TextScaled"] = true;
+LMG2L["TextLabel5_b"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel5_b"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel5_b"]["Text"] = [[UserDisplayName  : ]];
+LMG2L["TextLabel5_b"]["Name"] = [[TextLabel5]];
+LMG2L["TextLabel5_b"]["Position"] = UDim2.new(0.47115, 0, 0.29008, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel5.LocalScript
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextLabel5_b"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel6
+LMG2L["TextLabel6_d"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel6_d"]["TextWrapped"] = true;
+LMG2L["TextLabel6_d"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel6_d"]["TextScaled"] = true;
+LMG2L["TextLabel6_d"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel6_d"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel6_d"]["Text"] = [[UserAccountAge :]];
+LMG2L["TextLabel6_d"]["Name"] = [[TextLabel6]];
+LMG2L["TextLabel6_d"]["Position"] = UDim2.new(0.25481, 0, 0.29771, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel3
+LMG2L["TextLabel3_e"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel3_e"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel3_e"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel3_e"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel3_e"]["Text"] = [[UserName]];
+LMG2L["TextLabel3_e"]["Name"] = [[TextLabel3]];
+LMG2L["TextLabel3_e"]["Position"] = UDim2.new(0.47115, 0, 0.20611, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel3.LocalScript
+LMG2L["LocalScript_f"] = Instance.new("LocalScript", LMG2L["TextLabel3_e"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel4
+LMG2L["TextLabel4_10"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel4_10"]["TextWrapped"] = true;
+LMG2L["TextLabel4_10"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel4_10"]["TextScaled"] = true;
+LMG2L["TextLabel4_10"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel4_10"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel4_10"]["Text"] = [[UserDisplayName  : ]];
+LMG2L["TextLabel4_10"]["Name"] = [[TextLabel4]];
+LMG2L["TextLabel4_10"]["Position"] = UDim2.new(0.25481, 0, 0.21374, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel2
+LMG2L["TextLabel2_11"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel2_11"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel2_11"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel2_11"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel2_11"]["Text"] = [[UserName]];
+LMG2L["TextLabel2_11"]["Name"] = [[TextLabel2]];
+LMG2L["TextLabel2_11"]["Position"] = UDim2.new(0.46635, 0, 0.1145, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel2.LocalScript
+LMG2L["LocalScript_12"] = Instance.new("LocalScript", LMG2L["TextLabel2_11"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel
+LMG2L["TextLabel_13"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel_13"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_13"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel_13"]["Size"] = UDim2.new(0.19712, 0, 0.0687, 0);
+LMG2L["TextLabel_13"]["Text"] = [[UserName : ]];
+LMG2L["TextLabel_13"]["Position"] = UDim2.new(0.25481, 0, 0.1145, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel7
+LMG2L["TextLabel7_14"] = Instance.new("TextLabel", LMG2L["hi_8"]);
+LMG2L["TextLabel7_14"]["TextWrapped"] = true;
+LMG2L["TextLabel7_14"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel7_14"]["TextScaled"] = true;
+LMG2L["TextLabel7_14"]["BackgroundColor3"] = Color3.fromRGB(160, 160, 160);
+LMG2L["TextLabel7_14"]["Size"] = UDim2.new(0.89423, 0, 0.56489, 0);
+LMG2L["TextLabel7_14"]["Text"] = [[lol]];
+LMG2L["TextLabel7_14"]["Name"] = [[TextLabel7]];
+LMG2L["TextLabel7_14"]["Position"] = UDim2.new(-0.01923, 0, 0.41985, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel7.LocalScript
+LMG2L["LocalScript_15"] = Instance.new("LocalScript", LMG2L["TextLabel7_14"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.title
+LMG2L["title_16"] = Instance.new("TextLabel", LMG2L["main_2"]);
+LMG2L["title_16"]["TextWrapped"] = true;
+LMG2L["title_16"]["ZIndex"] = 2;
+LMG2L["title_16"]["BorderSizePixel"] = 0;
+LMG2L["title_16"]["TextScaled"] = true;
+LMG2L["title_16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["title_16"]["BackgroundTransparency"] = 1;
+LMG2L["title_16"]["Size"] = UDim2.new(0.58472, 0, 0.13966, 0);
+LMG2L["title_16"]["Text"] = [[J00pGui v4]];
+LMG2L["title_16"]["Name"] = [[title]];
+LMG2L["title_16"]["Position"] = UDim2.new(0.2093, 0, 0.02235, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame
+LMG2L["ScrollingFrame_17"] = Instance.new("ScrollingFrame", LMG2L["main_2"]);
+LMG2L["ScrollingFrame_17"]["BorderSizePixel"] = 0;
+LMG2L["ScrollingFrame_17"]["BackgroundColor3"] = Color3.fromRGB(227, 227, 227);
+LMG2L["ScrollingFrame_17"]["Size"] = UDim2.new(0.09635, 0, 0.77654, 0);
+LMG2L["ScrollingFrame_17"]["Position"] = UDim2.new(0.02658, 0, 0.2067, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.UICorner
+LMG2L["UICorner_18"] = Instance.new("UICorner", LMG2L["ScrollingFrame_17"]);
+LMG2L["UICorner_18"]["CornerRadius"] = UDim.new(0, 25);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2
+LMG2L["TextButton2_19"] = Instance.new("TextButton", LMG2L["ScrollingFrame_17"]);
+LMG2L["TextButton2_19"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_19"]["Size"] = UDim2.new(0, 42, 0, 42);
+LMG2L["TextButton2_19"]["Text"] = [[J00pGui]];
+LMG2L["TextButton2_19"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_19"]["Position"] = UDim2.new(0.03448, 0, 0.19784, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2.UICorner
+LMG2L["UICorner_1a"] = Instance.new("UICorner", LMG2L["TextButton2_19"]);
+LMG2L["UICorner_1a"]["CornerRadius"] = UDim.new(0, 25);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2.pp
+LMG2L["pp_1b"] = Instance.new("LocalScript", LMG2L["TextButton2_19"]);
+LMG2L["pp_1b"]["Name"] = [[pp]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2.lell
+LMG2L["lell_1c"] = Instance.new("LocalScript", LMG2L["TextButton2_19"]);
+LMG2L["lell_1c"]["Name"] = [[lell]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton
+LMG2L["TextButton_1d"] = Instance.new("TextButton", LMG2L["ScrollingFrame_17"]);
+LMG2L["TextButton_1d"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_1d"]["Size"] = UDim2.new(0, 42, 0, 42);
+LMG2L["TextButton_1d"]["Text"] = [[home]];
+LMG2L["TextButton_1d"]["Position"] = UDim2.new(0.03448, 0, 0.03597, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton.lell
+LMG2L["lell_1e"] = Instance.new("LocalScript", LMG2L["TextButton_1d"]);
+LMG2L["lell_1e"]["Name"] = [[lell]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton.UICorner
+LMG2L["UICorner_1f"] = Instance.new("UICorner", LMG2L["TextButton_1d"]);
+LMG2L["UICorner_1f"]["CornerRadius"] = UDim.new(0, 25);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton.pp
+LMG2L["pp_20"] = Instance.new("LocalScript", LMG2L["TextButton_1d"]);
+LMG2L["pp_20"]["Name"] = [[pp]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p
+LMG2L["M00p_21"] = Instance.new("Frame", LMG2L["main_2"]);
+LMG2L["M00p_21"]["BorderSizePixel"] = 0;
+LMG2L["M00p_21"]["BackgroundColor3"] = Color3.fromRGB(97, 97, 97);
+LMG2L["M00p_21"]["Size"] = UDim2.new(0.82392, 0, 0.73184, 0);
+LMG2L["M00p_21"]["Position"] = UDim2.new(0.15282, 0, 0.21788, 0);
+LMG2L["M00p_21"]["Name"] = [[M00p]];
+LMG2L["M00p_21"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.LocalScript
+LMG2L["LocalScript_22"] = Instance.new("LocalScript", LMG2L["M00p_21"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex6
+LMG2L["tex6_23"] = Instance.new("TextButton", LMG2L["M00p_21"]);
+LMG2L["tex6_23"]["TextWrapped"] = true;
+LMG2L["tex6_23"]["BorderSizePixel"] = 0;
+LMG2L["tex6_23"]["TextScaled"] = true;
+LMG2L["tex6_23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["tex6_23"]["Size"] = UDim2.new(0.87097, 0, 0.1374, 0);
+LMG2L["tex6_23"]["Text"] = [[Get Btools skid]];
+LMG2L["tex6_23"]["Name"] = [[tex6]];
+LMG2L["tex6_23"]["Position"] = UDim2.new(0.04032, 0, 0.37405, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex6.LocalScript
+LMG2L["LocalScript_24"] = Instance.new("LocalScript", LMG2L["tex6_23"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex5
+LMG2L["tex5_25"] = Instance.new("TextButton", LMG2L["M00p_21"]);
+LMG2L["tex5_25"]["TextWrapped"] = true;
+LMG2L["tex5_25"]["BorderSizePixel"] = 0;
+LMG2L["tex5_25"]["TextScaled"] = true;
+LMG2L["tex5_25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["tex5_25"]["Size"] = UDim2.new(0.18145, 0, 0.1145, 0);
+LMG2L["tex5_25"]["Text"] = [[delete all parts]];
+LMG2L["tex5_25"]["Name"] = [[tex5]];
+LMG2L["tex5_25"]["Position"] = UDim2.new(0.42742, 0, 0.24427, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex5.LocalScript
+LMG2L["LocalScript_26"] = Instance.new("LocalScript", LMG2L["tex5_25"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.J00p
+LMG2L["J00p_27"] = Instance.new("TextLabel", LMG2L["M00p_21"]);
+LMG2L["J00p_27"]["TextWrapped"] = true;
+LMG2L["J00p_27"]["BorderSizePixel"] = 0;
+LMG2L["J00p_27"]["TextScaled"] = true;
+LMG2L["J00p_27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["J00p_27"]["Size"] = UDim2.new(0.87097, 0, 0.12977, 0);
+LMG2L["J00p_27"]["Text"] = [[J00pGui Main F3X By ywihmslekp2]];
+LMG2L["J00p_27"]["Name"] = [[J00p]];
+LMG2L["J00p_27"]["Position"] = UDim2.new(0.04032, 0, 0.0916, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex3
+LMG2L["tex3_28"] = Instance.new("TextButton", LMG2L["M00p_21"]);
+LMG2L["tex3_28"]["TextWrapped"] = true;
+LMG2L["tex3_28"]["BorderSizePixel"] = 0;
+LMG2L["tex3_28"]["TextScaled"] = true;
+LMG2L["tex3_28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["tex3_28"]["Size"] = UDim2.new(0.18145, 0, 0.1145, 0);
+LMG2L["tex3_28"]["Text"] = [[Play music]];
+LMG2L["tex3_28"]["Name"] = [[tex3]];
+LMG2L["tex3_28"]["Position"] = UDim2.new(0.62097, 0, 0.24427, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex3.LocalScript
+LMG2L["LocalScript_29"] = Instance.new("LocalScript", LMG2L["tex3_28"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex
+LMG2L["tex_2a"] = Instance.new("TextButton", LMG2L["M00p_21"]);
+LMG2L["tex_2a"]["TextWrapped"] = true;
+LMG2L["tex_2a"]["BorderSizePixel"] = 0;
+LMG2L["tex_2a"]["TextScaled"] = true;
+LMG2L["tex_2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["tex_2a"]["Size"] = UDim2.new(0.18145, 0, 0.1145, 0);
+LMG2L["tex_2a"]["Text"] = [[Decal spam.]];
+LMG2L["tex_2a"]["Name"] = [[tex]];
+LMG2L["tex_2a"]["Position"] = UDim2.new(0.23387, 0, 0.24427, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex.LocalScript
+LMG2L["LocalScript_2b"] = Instance.new("LocalScript", LMG2L["tex_2a"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.TextButton2
+LMG2L["TextButton2_2c"] = Instance.new("TextButton", LMG2L["M00p_21"]);
+LMG2L["TextButton2_2c"]["TextWrapped"] = true;
+LMG2L["TextButton2_2c"]["BorderSizePixel"] = 0;
+LMG2L["TextButton2_2c"]["TextScaled"] = true;
+LMG2L["TextButton2_2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_2c"]["Size"] = UDim2.new(0.18145, 0, 0.1145, 0);
+LMG2L["TextButton2_2c"]["Text"] = [[Set SkyBox]];
+LMG2L["TextButton2_2c"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_2c"]["Position"] = UDim2.new(0.04032, 0, 0.24427, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.TextButton2.LocalScript
+LMG2L["LocalScript_2d"] = Instance.new("LocalScript", LMG2L["TextButton2_2c"]);
+
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.UICorner
+LMG2L["UICorner_2e"] = Instance.new("UICorner", LMG2L["M00p_21"]);
+LMG2L["UICorner_2e"]["CornerRadius"] = UDim.new(0, 25);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.X
+LMG2L["X_2f"] = Instance.new("TextButton", LMG2L["main_2"]);
+LMG2L["X_2f"]["TextWrapped"] = true;
+LMG2L["X_2f"]["BorderSizePixel"] = 0;
+LMG2L["X_2f"]["TextScaled"] = true;
+LMG2L["X_2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["X_2f"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+LMG2L["X_2f"]["Size"] = UDim2.new(0.07973, 0, 0.12849, 0);
+LMG2L["X_2f"]["Text"] = [[X]];
+LMG2L["X_2f"]["Name"] = [[X]];
+LMG2L["X_2f"]["Position"] = UDim2.new(0.89037, 0, 0.02793, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.X.pp
+LMG2L["pp_30"] = Instance.new("LocalScript", LMG2L["X_2f"]);
+LMG2L["pp_30"]["Name"] = [[pp]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.X.pp
+LMG2L["pp_31"] = Instance.new("LocalScript", LMG2L["X_2f"]);
+LMG2L["pp_31"]["Name"] = [[pp]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow
+LMG2L["wow_32"] = Instance.new("TextButton", LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"]);
+LMG2L["wow_32"]["BorderSizePixel"] = 0;
+LMG2L["wow_32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["wow_32"]["Size"] = UDim2.new(0.0525, 0, 0.09434, 0);
+LMG2L["wow_32"]["Text"] = [[J00pGui]];
+LMG2L["wow_32"]["Name"] = [[wow]];
+LMG2L["wow_32"]["Position"] = UDim2.new(0.033, 0, 0.07008, 0);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.UICorner
+LMG2L["UICorner_33"] = Instance.new("UICorner", LMG2L["wow_32"]);
+LMG2L["UICorner_33"]["CornerRadius"] = UDim.new(0, 70);
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.lel
+LMG2L["lel_34"] = Instance.new("LocalScript", LMG2L["wow_32"]);
+LMG2L["lel_34"]["Name"] = [[lel]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.pp
+LMG2L["pp_35"] = Instance.new("LocalScript", LMG2L["wow_32"]);
+LMG2L["pp_35"]["Name"] = [[pp]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.vis
+LMG2L["vis_36"] = Instance.new("LocalScript", LMG2L["wow_32"]);
+LMG2L["vis_36"]["Name"] = [[vis]];
+
+
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.lel
+local function C_6()
+	local script = LMG2L["lel_6"];
+	local UIS = game:GetService("UserInputService")	
+	
+	local gui = script.Parent	
+	local dragCatcher = gui:WaitForChild("titleframe")	
+	local target = gui	
+	
+	local dragging = false	
+	local dragStart	
+	local startPos	
+	
+	-- DragCatcher 설정 (안전장치)	
+	dragCatcher.Active = true	
+	dragCatcher.Selectable = false	
+	
+	dragCatcher.InputBegan:Connect(function(input)	
+		if input.UserInputType == Enum.UserInputType.MouseButton1	
+		or input.UserInputType == Enum.UserInputType.Touch then	
+			dragging = true	
+			dragStart = input.Position	
+			startPos = target.Position	
+	
+			input.Changed:Connect(function()	
+				if input.UserInputState == Enum.UserInputState.End then	
+					dragging = false	
+				end	
+			end)	
+		end	
+	end)	
+	
+	UIS.InputChanged:Connect(function(input)	
+		if dragging and (	
+			input.UserInputType == Enum.UserInputType.MouseMovement	
+			or input.UserInputType == Enum.UserInputType.Touch	
+		) then	
+			local delta = input.Position - dragStart	
+			target.Position = UDim2.new(	
+				startPos.X.Scale,	
+				startPos.X.Offset + delta.X,	
+				startPos.Y.Scale,	
+				startPos.Y.Offset + delta.Y	
+			)	
+		end	
+	end)	
+end;
+task.spawn(C_6);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.ImageLabel.LocalScript
+local function C_a()
+	local script = LMG2L["LocalScript_a"];
+	local Players = game:GetService("Players")	
+	local LocalPlayer = Players.LocalPlayer	
+	
+	local thumbType = Enum.ThumbnailType.HeadShot	
+	local thumbSize = Enum.ThumbnailSize.Size420x420	
+	
+	local content, isReady = Players:GetUserThumbnailAsync(LocalPlayer.UserId, thumbType, thumbSize)	
+	
+	local imageLabel = script.Parent	
+	
+	imageLabel.Image = content	
+end;
+task.spawn(C_a);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel5.LocalScript
+local function C_c()
+	local script = LMG2L["LocalScript_c"];
+	local Players = game:GetService("Players")	
+	local LocalPlayer = Players.LocalPlayer	
+	local txt = script.Parent	
+	
+	txt.Text = tostring(LocalPlayer.AccountAge)	
+end;
+task.spawn(C_c);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel3.LocalScript
+local function C_f()
+	local script = LMG2L["LocalScript_f"];
+	local Players = game:GetService("Players")	
+	local LocalPlayer = Players.LocalPlayer	
+	local txt = script.Parent	
+	
+	txt.Text = LocalPlayer.DisplayName	
+end;
+task.spawn(C_f);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel2.LocalScript
+local function C_12()
+	local script = LMG2L["LocalScript_12"];
+	local Players = game:GetService("Players")	
+	local LocalPlayer = Players.LocalPlayer	
+	local txt = script.Parent	
+	
+	txt.Text = LocalPlayer.Name	
+end;
+task.spawn(C_12);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.hi.TextLabel7.LocalScript
+local function C_15()
+	local script = LMG2L["LocalScript_15"];
+	local Players = game:GetService("Players")	
+	local LocalPlayer = Players.LocalPlayer	
+	local txt = script.Parent	
+	
+	txt.Text = "hI " .. LocalPlayer.Name .. "! welcome 2 J00pGui lol."	
+end;
+task.spawn(C_15);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2.pp
+local function C_1b()
+	local script = LMG2L["pp_1b"];
+	local button = script.Parent	
+	local scrfrm = button.Parent	
+	local frm = scrfrm.Parent	
+	local home = frm:WaitForChild("hi")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    home.Visible = false	
+	end)	
+end;
+task.spawn(C_1b);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton2.lell
+local function C_1c()
+	local script = LMG2L["lell_1c"];
+	local button = script.Parent	
+	local sfrm = button.Parent	
+	local frm = sfrm.parent	
+	local home = frm:WaitForChild("M00p")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    home.Visible = true	
+	end)	
+end;
+task.spawn(C_1c);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton.lell
+local function C_1e()
+	local script = LMG2L["lell_1e"];
+	local button = script.Parent	
+	local sfrm = button.Parent	
+	local frm = sfrm.parent	
+	local home = frm:WaitForChild("hi")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    home.Visible = true	
+	end)	
+end;
+task.spawn(C_1e);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.ScrollingFrame.TextButton.pp
+local function C_20()
+	local script = LMG2L["pp_20"];
+	local button = script.Parent	
+	local scrfrm = button.Parent	
+	local frm = scrfrm.Parent	
+	local home = frm:WaitForChild("M00p")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    home.Visible = false	
+	end)	
+end;
+task.spawn(C_20);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.LocalScript
+local function C_22()
+	local script = LMG2L["LocalScript_22"];
+	local ui = script.Parent	
+	ui.Visible = false	
+end;
+task.spawn(C_22);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex6.LocalScript
+local function C_24()
+	local script = LMG2L["LocalScript_24"];
+	local allD = script.parent	
+	
+	allD.MouseButton1Click:Connect(function()	
+		local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+	
+		for i, v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+				break	
+			end	
+		end	
+	
+		for i, v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+				break	
+			end	
+		end	
+	
+		if tool and tool:FindFirstChild("SyncAPI") then	
+			local remote = tool.SyncAPI.ServerEndpoint	
+	
+			local function _(args)	
+				remote:InvokeServer(unpack(args))	
+			end	
+	
+			local function DestroyPart(part)	
+				local args = {	
+					[1] = "Remove",	
+					[2] = {	
+						[1] = part	
+					}	
+				}	
+				_(args)	
+			end	
+	
+			local function DeleteAllParts()	
+				for _, part in pairs(workspace:GetDescendants()) do	
+					if part:IsA("BasePart") then	
+						spawn(function()	
+							DestroyPart(part)	
+						end)	
+					end	
+				end	
+			end	
+	
+			DeleteAllParts()	
+		end	
+	end)	
+	
+end;
+task.spawn(C_24);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex5.LocalScript
+local function C_26()
+	local script = LMG2L["LocalScript_26"];
+	local allD = script.parent	
+	
+	allD.MouseButton1Click:Connect(function()	
+		local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+	
+		for i, v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+				break	
+			end	
+		end	
+	
+		for i, v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+				break	
+			end	
+		end	
+	
+		if tool and tool:FindFirstChild("SyncAPI") then	
+			local remote = tool.SyncAPI.ServerEndpoint	
+	
+			local function _(args)	
+				remote:InvokeServer(unpack(args))	
+			end	
+	
+			local function DestroyPart(part)	
+				local args = {	
+					[1] = "Remove",	
+					[2] = {	
+						[1] = part	
+					}	
+				}	
+				_(args)	
+			end	
+	
+			local function DeleteAllParts()	
+				for _, part in pairs(workspace:GetDescendants()) do	
+					if part:IsA("BasePart") then	
+						spawn(function()	
+							DestroyPart(part)	
+						end)	
+					end	
+				end	
+			end	
+	
+			DeleteAllParts()	
+		end	
+	end)	
+	
+end;
+task.spawn(C_26);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex3.LocalScript
+local function C_29()
+	local script = LMG2L["LocalScript_29"];
+	local skyButton = script.Parent	
+	
+	skyButton.MouseButton1Click:Connect(function()	
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand	
+	
+		RequestCommand:InvokeServer(";music 92948568323909 ;pitch 0.1 ;volume 2")
+	end)	
+end;
+task.spawn(C_29);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.tex.LocalScript
+local function C_2b()
+	local script = LMG2L["LocalScript_2b"];
+	local decal = script.Parent	
+	
+	decal.MouseButton1Click:Connect(function()	
+		local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function spam(id)	
+			for i,v in game.workspace:GetDescendants() do	
+				if v:IsA("BasePart") then	
+					spawn(function()	
+						SetLocked(v,false)	
+						SpawnDecal(v,Enum.NormalId.Front)	
+						AddDecal(v,id,Enum.NormalId.Front)	
+	
+						SpawnDecal(v,Enum.NormalId.Back)	
+						AddDecal(v,id,Enum.NormalId.Back)	
+	
+						SpawnDecal(v,Enum.NormalId.Right)	
+						AddDecal(v,id,Enum.NormalId.Right)	
+	
+						SpawnDecal(v,Enum.NormalId.Left)	
+						AddDecal(v,id,Enum.NormalId.Left)	
+	
+						SpawnDecal(v,Enum.NormalId.Bottom)	
+						AddDecal(v,id,Enum.NormalId.Bottom)	
+	
+						SpawnDecal(v,Enum.NormalId.Top)	
+						AddDecal(v,id,Enum.NormalId.Top)	
+					end)	
+				end	
+			end 	
+		end	
+		spam("136765049135379")	
+	end)	
+end;
+task.spawn(C_2b);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.M00p.TextButton2.LocalScript
+local function C_2d()
+	local script = LMG2L["LocalScript_2d"];
+	local skyButton = script.Parent	
+	
+	skyButton.MouseButton1Click:Connect(function()	
+	local player = game.Players.LocalPlayer	
+		local char = player.Character	
+		local tool	
+		for i,v in player:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		for i,v in game.ReplicatedStorage:GetDescendants() do	
+			if v.Name == "SyncAPI" then	
+				tool = v.Parent	
+			end	
+		end	
+		--craaa	
+		remote = tool.SyncAPI.ServerEndpoint	
+		function _(args)	
+			remote:InvokeServer(unpack(args))	
+		end	
+		function SetCollision(part,boolean)	
+			local args = {	
+				[1] = "SyncCollision",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CanCollide"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetAnchor(boolean,part)	
+			local args = {	
+				[1] = "SyncAnchor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Anchored"] = boolean	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreatePart(cf,parent)	
+			local args = {	
+				[1] = "CreatePart",	
+				[2] = "Normal",	
+				[3] = cf,	
+				[4] = parent	
+			}	
+			_(args)	
+		end	
+		function DestroyPart(part)	
+			local args = {	
+				[1] = "Remove",	
+				[2] = {	
+					[1] = part	
+				}	
+			}	
+			_(args)	
+		end	
+		function MovePart(part,cf)	
+			local args = {	
+				[1] = "SyncMove",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Resize(part,size,cf)	
+			local args = {	
+				[1] = "SyncResize",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["CFrame"] = cf,	
+						["Size"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function AddMesh(part)	
+			local args = {	
+				[1] = "CreateMeshes",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function SetMesh(part,meshid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["MeshId"] = "rbxassetid://"..meshid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetTexture(part, texid)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["TextureId"] = "rbxassetid://"..texid	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SetName(part, stringg)	
+			local args = {	
+				[1] = "SetName",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = stringg	
+			}	
+	
+			_(args)	
+		end	
+		function MeshResize(part,size)	
+			local args = {	
+				[1] = "SyncMesh",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Scale"] = size	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Weld(part1, part2,lead)	
+			local args = {	
+				[1] = "CreateWelds",	
+				[2] = {	
+					[1] = part1,	
+					[2] = part2	
+				},	
+				[3] = lead	
+			}	
+			_(args)	
+	
+		end	
+		function SetLocked(part,boolean)	
+			local args = {	
+				[1] = "SetLocked",	
+				[2] = {	
+					[1] = part	
+				},	
+				[3] = boolean	
+			}	
+			_(args)	
+		end	
+		function SetTrans(part,int)	
+			local args = {	
+				[1] = "SyncMaterial",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Transparency"] = int	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function CreateSpotlight(part)	
+			local args = {	
+				[1] = "CreateLights",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight"	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SyncLighting(part,brightness)	
+			local args = {	
+				[1] = "SyncLighting",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["LightType"] = "SpotLight",	
+						["Brightness"] = brightness	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function Color(part,color)	
+			local args = {	
+				[1] = "SyncColor",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Color"] = color --[[Color3]],	
+						["UnionColoring"] = false	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+		function SpawnDecal(part,side)	
+			local args = {	
+				[1] = "CreateTextures",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal"	
+					}	
+				}	
+			}	
+	
+			_(args)	
+		end	
+		function AddDecal(part,asset,side)	
+			local args = {	
+				[1] = "SyncTexture",	
+				[2] = {	
+					[1] = {	
+						["Part"] = part,	
+						["Face"] = side,	
+						["TextureType"] = "Decal",	
+						["Texture"] = "rbxassetid://".. asset	
+					}	
+				}	
+			}	
+			_(args)	
+		end	
+	
+		function Sky(id)	
+			e = char.HumanoidRootPart.CFrame.x	
+			f = char.HumanoidRootPart.CFrame.y	
+			g = char.HumanoidRootPart.CFrame.z	
+			CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)	
+			for i,v in game.Workspace:GetDescendants() do	
+				if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then	
+					--spawn(function()	
+					SetName(v,"Sky")	
+					AddMesh(v)	
+					--end)	
+					--spawn(function()	
+					SetMesh(v,"111891702759441")	
+					SetTexture(v,id)	
+					--end)	
+					MeshResize(v,Vector3.new(6000,6000,6000))	
+					SetLocked(v,true)	
+				end	
+			end	
+		end	
+		Sky("136765049135379")	
+	end)	
+end;
+task.spawn(C_2d);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.X.pp
+local function C_30()
+	local script = LMG2L["pp_30"];
+	local button = script.Parent	
+	local lol = button.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+	    lol.Visible = false	
+	end)	
+end;
+task.spawn(C_30);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.main.X.pp
+local function C_31()
+	local script = LMG2L["pp_31"];
+	local button = script.Parent	
+	local scrfrm = button.Parent	
+	local frm = scrfrm.Parent	
+	local home = frm:WaitForChild("wow")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    home.Visible = true	
+	end)	
+end;
+task.spawn(C_31);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.lel
+local function C_34()
+	local script = LMG2L["lel_34"];
+	local UIS = game:GetService("UserInputService")	
+	
+	local gui = script.Parent	
+	local dragCatcher = gui	
+	local target = gui	
+	
+	local dragging = false	
+	local dragStart	
+	local startPos	
+	
+	-- DragCatcher 설정 (안전장치)	
+	dragCatcher.Active = true	
+	dragCatcher.Selectable = false	
+	
+	dragCatcher.InputBegan:Connect(function(input)	
+		if input.UserInputType == Enum.UserInputType.MouseButton1	
+		or input.UserInputType == Enum.UserInputType.Touch then	
+			dragging = true	
+			dragStart = input.Position	
+			startPos = target.Position	
+	
+			input.Changed:Connect(function()	
+				if input.UserInputState == Enum.UserInputState.End then	
+					dragging = false	
+				end	
+			end)	
+		end	
+	end)	
+	
+	UIS.InputChanged:Connect(function(input)	
+		if dragging and (	
+			input.UserInputType == Enum.UserInputType.MouseMovement	
+			or input.UserInputType == Enum.UserInputType.Touch	
+		) then	
+			local delta = input.Position - dragStart	
+			target.Position = UDim2.new(	
+				startPos.X.Scale,	
+				startPos.X.Offset + delta.X,	
+				startPos.Y.Scale,	
+				startPos.Y.Offset + delta.Y	
+			)	
+		end	
+	end)	
+end;
+task.spawn(C_34);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.pp
+local function C_35()
+	local script = LMG2L["pp_35"];
+	local button = script.Parent	
+	local scGui = button.Parent	
+	local lols = scGui:WaitForChild("main")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    lols.Visible = true	
+	    button.Visible = False	
+	end)	
+end;
+task.spawn(C_35);
+-- Players.ywihmsleklp2.PlayerGui.J00pGui v4 made by ywihmsleklp2 & J00pklp2.wow.vis
+local function C_36()
+	local script = LMG2L["vis_36"];
+	local ui = script.Parent	
+	ui.Visible = false	
+end;
+task.spawn(C_36);
+
+return LMG2L["J00pGui v4 made by ywihmsleklp2 & J00pklp2_1"], require;
